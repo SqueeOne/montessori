@@ -17,6 +17,14 @@ gem 'sprockets-rails', '3.2.0'
 gem 'activemodel', '5.0.2'
 gem 'railties', '5.0.2'
 
+# Use bootstrap 4 for css goodies
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+# Bootstrap tooltip dependancies
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
