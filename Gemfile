@@ -11,7 +11,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-# Dependencies
+# Rails 5 dependencies
 gem 'actionpack', '5.0.2'
 gem 'sprockets-rails', '3.2.0'
 gem 'activemodel', '5.0.2'
