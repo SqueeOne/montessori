@@ -1,3 +1,9 @@
-// Place all the styles related to the main_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.carousel-inner {
+    background-color: #8FD8D2 !important;
+    height: 500px !important;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
