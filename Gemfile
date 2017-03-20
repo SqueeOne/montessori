@@ -25,6 +25,9 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+# Use font awesome for icons
+gem "font-awesome-rails"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
